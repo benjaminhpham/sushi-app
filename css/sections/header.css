@@ -52,11 +52,6 @@
   cursor: pointer;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .header__menu li img {
   width: 24px;
   height: 24px;

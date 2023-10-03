@@ -50,7 +50,6 @@
 
 .hero-content-info {
   flex: 1;
-  border: 1px solid red;
   padding: 4rem;
 
   display: flex;
@@ -102,6 +101,8 @@
 }
 
 .hero-content__play-button {
+  cursor: pointer;
+
   border: none;
   outline: none;
 
@@ -111,5 +112,67 @@
 
   font-size: 16px;
   line-height: 19px;
-  color: var(--black);
+  color: var(--black-200);
+  font-family: var(--plus-jakarta-sans);
+}
+
+.hero-content__play-button img {
+  margin-right: 12px;
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+
+.hero-content__testimonial {
+  padding: 2rem 4rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: var(--color-white);
+}
+
+.hero-content__customer {
+  flex: 1;
+  gap: 10px;
+}
+
+.hero-content__customer h4 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: var(--playfair-display);
+}
+
+.hero-content__customer p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
+  opacity: 0.5;
+}
+
+.hero-content__review {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  padding-left: 20px;
+  border-left: 1px solid rgba(2, 2, 2, 0.1);
+}
+
+.hero-content__review img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+
+.hero-content__review p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2rem;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
+  opacity: 0.8;
 }
